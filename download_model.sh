@@ -31,3 +31,8 @@ wget -c https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/model
 wget -c https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/unet/config.json -O pretrained_models/stable-diffusion-v1-5/unet/config.json
 wget -c https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/unet/diffusion_pytorch_model.bin -O pretrained_models/stable-diffusion-v1-5/unet/diffusion_pytorch_model.bin
 wget -c https://huggingface.co/runwayml/stable-diffusion-v1-5/raw/main/v1-inference.yaml -O pretrained_models/stable-diffusion-v1-5/v1-inference.yaml
+
+# 下载 example_data.zip 文件
+wget -c https://huggingface.co/camenduru/champ/resolve/main/example_data.zip -O example_data.zip
+# 解压 example_data.zip 文件
+unzip example_data.zip
