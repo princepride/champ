@@ -6,6 +6,7 @@
     <a href='https://github.com/Leoooo333' target='_blank'>Junming Leo Chen</a><sup>*2</sup>&emsp;
     <a href='https://github.com/daizuozhuo' target='_blank'>Zuozhuo Dai</a><sup>3</sup>&emsp;
     <a href='https://ai3.fudan.edu.cn/info/1088/1266.htm' target='_blank'>Yinghui Xu</a><sup>2</sup>&emsp;
+    <a href='https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html' target='_blank'>Xun Cao</a><sup>1</sup>&emsp;
     <a href='https://yoyo000.github.io/' target='_blank'>Yao Yao</a><sup>1</sup>&emsp;
     <a href='http://zhuhao.cc/home/' target='_blank'>Hao Zhu</a><sup>+1</sup>&emsp;
     <a href='https://sites.google.com/site/zhusiyucs/home' target='_blank'>Siyu Zhu</a><sup>+2</sup>
@@ -31,7 +32,7 @@ https://github.com/fudan-generative-vision/champ/assets/82803297/b4571be6-dfb0-4
 
 # Installation
 - System requirement: Ubuntu20.04
-- Tested GPUs: A100
+- Tested GPUs: A100, RTX3090
 
 Create conda environment: 
 ```bash
@@ -92,6 +93,8 @@ Animation results will be saved in `results` folder. You can change the referenc
 
 You can also extract the driving motion from any videos and then render with Blender. We will later provide the instructions and scripts for this.
 
+Note: The default motion-01 in `inference.yaml` has more than 500 frames and takes about 36GB VRAM. If you encounter VRAM issues, consider switching to other example data with less frames.
+
 # Acknowledgements
 We thank the authors of [MagicAnimate](https://github.com/magic-research/magic-animate), [Animate Anyone](https://github.com/HumanAIGC/AnimateAnyone), and [AnimateDiff](https://github.com/guoyww/AnimateDiff) for their excellent work. Our project is built upon [Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone), and we are grateful for their open-source contributions.
 
@@ -107,3 +110,12 @@ If you find our work useful for your research, please consider citing the paper:
       primaryClass={cs.CV}
 }
 ```
+
+# Opportunities available
+Multiple research positions are open at the **Generative Vision Lab, Fudan University**! Include:
+* Research assistant
+* Postdoctoral researcher
+* PhD candidate
+* Master students
+
+Interested individuals are encouraged to contact us at [siyuzhu@fudan.edu.cn](mailto://siyuzhu@fudan.edu.cn) for further information.
